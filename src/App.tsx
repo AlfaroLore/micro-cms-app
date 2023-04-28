@@ -1,22 +1,22 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/pages/home';
 
-function App() {
+function AppContainer() {
   return (
-    <>
-      <div className="min-h-screen flex justify-center items-center">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-        <h1 className="text-3xl font-bold text-blue-600">Vite + React</h1>
-      </div>
-    </>
+    <div className="bg-black text-white min-h-screen max-w-full">
+      <Routes>
+        <Route path="" element={<Home />} />
+      </Routes>
+    </div>
   );
 }
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <AppContainer />
+    </BrowserRouter>
+  );
+};
 
 export default App;

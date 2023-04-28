@@ -1,7 +1,5 @@
-import React, { FC, HTMLAttributes } from 'react';
+import React, { FC } from 'react';
 import styled, { css } from 'styled-components';
-
-interface InputProps extends HTMLAttributes<HTMLInputElement> {}
 
 const styles = css`
   display: block;
@@ -16,8 +14,8 @@ const StyledInput = styled.input`
   ${styles}
 `;
 
-const index: FC<InputProps> = (props) => {
-  return <StyledInput {...props} />;
+const index: FC = () => {
+  return <StyledInput />;
 };
 
 export default index;

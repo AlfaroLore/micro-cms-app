@@ -28,7 +28,7 @@ const styles = css`
   }
 `;
 
-const StyledLink = styled(({ disabled, transparent, reverse, palette, height, ...props }) => <Link {...props} />)`
+const StyledLink = styled((props) => <Link {...props} />)`
   ${styles}
 `;
 

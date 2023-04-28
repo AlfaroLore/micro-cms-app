@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import reactLogo from './assets/react.svg';
+import reactLogo from '../../../assets/react.svg';
 
 interface BrandLogoProps {
   classes?: string;
