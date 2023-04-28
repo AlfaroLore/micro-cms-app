@@ -5,9 +5,11 @@ import PrimaryNavigation from '../../molecules/primaryNavigation';
 
 const Navbar: FC = () => {
   return (
-    <div className="flex justify-between p-1 items-center">
-      <BrandLogo />
-      <PrimaryNavigation />
+    <div className="flex justify-between p-1 items-center flex-wrap md:flex-nowrap lg:flex-nowrap">
+      <div className="flex gap-10 items-end">
+        <BrandLogo />
+        <PrimaryNavigation />
+      </div>
       <SearchBar />
     </div>
   );

@@ -1,14 +1,14 @@
 import React, { FC } from 'react';
 import Navbar from '../../organisms/navbar';
-import Hero from '../../organisms/hero';
+import { H2 } from '../../atoms/text';
 
-const Home: FC = () => {
+const Contact: FC = () => {
   return (
     <div className="lg:px-48 md:px-24 sm:px-12">
       <Navbar />
-      <Hero />
+      <H2>Contact</H2>
     </div>
   );
 };
 
-export default Home;
+export default Contact;

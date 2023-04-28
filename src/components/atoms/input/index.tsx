@@ -1,4 +1,3 @@
-import React, { FC } from 'react';
 import styled, { css } from 'styled-components';
 
 const styles = css`
@@ -10,12 +9,8 @@ const styles = css`
   border-radius: 2px;
 `;
 
-const StyledInput = styled.input`
+const Input = styled.input`
   ${styles}
 `;
 
-const index: FC = () => {
-  return <StyledInput />;
-};
-
-export default index;
+export default Input;

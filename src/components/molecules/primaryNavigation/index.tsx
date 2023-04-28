@@ -13,7 +13,7 @@ const Nav = styled.nav`
     color: white;
     font-size: 1.25rem;
     &.active {
-      color: fucsia;
+      color: pink;
     }
   }
 `;
