@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > Renders Input 1`] = `
+<DocumentFragment>
+  <input
+    class="sc-bgqQcB eoSoDA"
+  />
+</DocumentFragment>
+`;

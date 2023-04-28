@@ -26,7 +26,7 @@ const ContactForm: FC = () => {
           <Textarea value={content} onChange={(event) => setContent(event.target.value)} />
         </div>
 
-        <Button type="submit">Save</Button>
+        <Button type="submit">Send</Button>
       </form>
     </div>
   );

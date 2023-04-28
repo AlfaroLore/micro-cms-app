@@ -1,11 +1,9 @@
 import React, { FC } from 'react';
-import Navbar from '../../organisms/navbar';
 import { H2, Paragraph } from '../../atoms/text';
 
 const About: FC = () => {
   return (
-    <div className="lg:px-48 md:px-24 sm:px-12">
-      <Navbar />
+    <div>
       <H2>About Us</H2>
       <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id imperdiet nisi. Nullam mattis tincidunt

@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BrandLogo > Renders BrandLogo 1`] = `
+<DocumentFragment>
+  <img
+    alt="Logo"
+    src="/src/assets/react.svg"
+  />
+</DocumentFragment>
+`;

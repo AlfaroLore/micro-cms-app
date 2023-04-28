@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Text > renders h1 heading 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bgqQcB sc-gTRrQi font-helvetica text-5xl font-light uppercase"
+  >
+    H1 Heading
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text > renders h2 heading 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bgqQcB sc-ewnqHT font-helvetica text-4xl font-bold"
+  >
+    H2 Heading
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text > renders h3 heading 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bgqQcB sc-fFGjHI font-helvetica text-2xl font-bold"
+  >
+    H3 Heading
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text > renders h4 heading 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bgqQcB sc-dicizt font-helvetica text-lg font-bold"
+  >
+    H1 Heading
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text > renders paragraph 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-iVCKna text-base font-normal"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam at dolor doloremque earum eius et eum excepturi facere fugiat illum magnam maiores molestias mollitia, necessitatibus officia quam ratione velit!
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text > renders small text 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bgqQcB sc-gxYJeL font-helvetica text-sm font-bold "
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda porro quas vero. Amet asperiores cum debitis eius et eveniet facere fuga maxime nostrum, officiis perferendis rem vel voluptatem, voluptatibus voluptatum!
+  </p>
+</DocumentFragment>
+`;

@@ -18,7 +18,7 @@ const PostCard: FC<PostCard> = ({ title, content, id }) => {
       />
       <H3>{title}</H3>
       <Paragraph>{content.length > 60 ? `${content.substring(0, 60)}...` : content}</Paragraph>
-      <Link to={`/blog/${id}`}>Read More</Link>
+      <Link to={`/post/${id}`}>Read More</Link>
     </div>
   );
 };

@@ -20,20 +20,12 @@ const PostForm: FC<PostFormProps> = ({ postContent = '', postTitle = '', id = nu
   const createNewPost = (): void => {
     const id = new Date().getTime();
     const post = { title, content, id };
-    let posts = JSON.parse(localStorage.getItem('posts') || '[]');
-    posts.push(post);
-    localStorage.setItem('posts', JSON.stringify(posts));
     onSave(post);
   };
 
   const editPost = (): void => {
-    let posts = JSON.parse(localStorage.getItem('posts') || '[]');
-    let index = posts.findIndex((post: { id: number }) => post.id === id);
-    if (index != -1) {
-      posts[index].title = title;
-      posts[index].content = content;
-      localStorage.setItem('posts', JSON.stringify(posts));
-    }
+    const post = { title, content, id: id ?? 0 };
+    onSave(post);
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {

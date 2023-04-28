@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledHeading = styled.p.attrs(() => ({
-  className: 'font-montserrat'
+  className: 'font-helvetica'
 }))``;
 
 export const H1 = styled(StyledHeading).attrs(() => ({
@@ -21,13 +21,9 @@ export const H4 = styled(StyledHeading).attrs(() => ({
 }))``;
 
 export const Paragraph = styled.p.attrs(() => ({
-  className: 'text-base font-avenirRoman'
-}))``;
-
-export const Link = styled.p.attrs(() => ({
-  className: 'text-base text-awnLightBlue font-montserratMedium'
+  className: 'text-base font-normal'
 }))``;
 
 export const Small = styled(StyledHeading).attrs(() => ({
-  className: 'text-sm font-bold font-montserrat'
+  className: 'text-sm font-bold '
 }))``;

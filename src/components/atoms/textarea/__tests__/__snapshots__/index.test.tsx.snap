@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TextArea > Renders TextArea 1`] = `
+<DocumentFragment>
+  <textarea
+    class="sc-bgqQcB hVQiYn"
+  />
+</DocumentFragment>
+`;
