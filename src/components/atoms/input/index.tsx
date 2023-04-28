@@ -7,6 +7,7 @@ const styles = css`
   box-sizing: border-box;
   font-size: 1rem;
   border-radius: 2px;
+  padding: 0.4444444444em;
 `;
 
 const Input = styled.input`

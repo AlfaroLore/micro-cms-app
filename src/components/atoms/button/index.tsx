@@ -41,7 +41,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   type?: 'button' | 'submit' | 'reset';
 }
 
-const index: FC<ButtonProps> = ({ type = 'button', ...props }) => {
+const Button: FC<ButtonProps> = ({ type = 'button', ...props }) => {
   const { to } = props;
   if (to) {
     return <StyledLink {...props} />;
@@ -49,4 +49,4 @@ const index: FC<ButtonProps> = ({ type = 'button', ...props }) => {
   return <StyledButton {...props} type={type} />;
 };
 
-export default index;
+export default Button;

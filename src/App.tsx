@@ -3,16 +3,19 @@ import Home from './components/pages/home';
 import About from './components/pages/about';
 import Blog from './components/pages/blog';
 import Contact from './components/pages/contact';
+import { PostsProvider } from './components/utils/postsContext';
 
 function AppContainer() {
   return (
     <div className="bg-black text-white min-h-screen w-screen">
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <PostsProvider>
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </PostsProvider>
     </div>
   );
 }

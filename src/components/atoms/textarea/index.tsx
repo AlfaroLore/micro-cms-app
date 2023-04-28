@@ -8,7 +8,7 @@ const styles = css`
   font-size: 1rem;
   padding: 0.4444444444em;
   height: auto;
-  color: black;
+  color: white;
   border-radius: 2px;
   &[type='checkbox'],
   &[type='radio'] {
